@@ -4,7 +4,9 @@ var mybot = new Discord.Client();
 
 mybot.on("message", function(message){
 	if(message.content === "!cmds")
-		mybot.reply(message, "!cmds[page]. this will show the command on that page! there are 1 page(s)")
+		mybot.reply(message, "!cmds. This will show a list of commands")
+	if(message.content === "!cmds")
+		mybot.reply(message, "!info. This will give info on Me and My Maker ''meet my maker''!)
 	
 });
 
