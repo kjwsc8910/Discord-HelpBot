@@ -14,4 +14,4 @@ mybot.on("message", function(message){
 		mybot.reply(message, "This bot is made by BenjiSoft (Benji Lewis) for the open-source community. All code is availiable at: https://github.com/benjisoft/Discord-HelpBot and is coded in Javascript using the discord.js library availiable at: https://github.com/hydrabolt/discord.js/")
 });
 
-mybot.loginWithToken("token");
+mybot.loginWithToken("MTg0NzM1NjQ5ODUxNTA2Njg5.CiYv-w.DwFcASCH1Ll_h5OsJZN4Gt50PKI");
