@@ -6,7 +6,7 @@ mybot.on("message", function(message){
 	if(message.content === "!cmds")
 		mybot.reply(message, "!cmds. This will show a list of commands")
 	if(message.content === "!cmds")
-		mybot.reply(message, "!info. This will give info on Me and My Maker ''meet my maker''!)
+		mybot.reply(message, "!info. This will show Info on my creators KJ ")
 	if(message.content === "!cmds")
 		mybot.reply(message, "!chatbanon. turns on automatic ban from messages in chat")
 	if(message.content === "!info")
