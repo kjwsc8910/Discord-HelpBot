@@ -7,6 +7,10 @@ mybot.on("message", function(message){
 		mybot.reply(message, "!cmds. This will show a list of commands")
 	if(message.content === "!cmds")
 		mybot.reply(message, "!info. This will give info on Me and My Maker ''meet my maker''!)
+		if(message.content === "!cmds")
+		mybot.reply(message, "!chatbanon. turns on automatic ban from messages in chat")
+		if(message.content === "!info")
+		mybot.reply(message, "My creators are KJ Woledgesinclair and benjiman lewis. benjiman lewis had created the files to make me work for discor, And most importantly KJ Woledgesinclair who coded me to work and talk")
 	
 });
 
